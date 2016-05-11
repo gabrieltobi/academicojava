@@ -5,6 +5,14 @@ public class Pessoa
     private int idade = 0;
     private String nome = "";
 
+    public Pessoa() {
+    }
+
+    public Pessoa(String nome, int idade) {
+        this.nome = nome;
+        this.idade = idade;
+    }
+
     public String getCurso() {
         return this.curso;
     }

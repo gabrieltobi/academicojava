@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=
+comment0.target=double\ getCargaHoraria()
+comment1.params=cargaHoraria
+comment1.target=void\ setCargaHoraria(double)
+numComments=2

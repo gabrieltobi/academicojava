@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=
+comment0.target=boolean\ getAfastamentoMedico()
+comment1.params=afastamentoMedico
+comment1.target=void\ setAfastamentoMedico(boolean)
+numComments=2

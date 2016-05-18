@@ -5,12 +5,10 @@ public class Pessoa
     private int idade = 0;
     private String nome = "";
 
-    public Pessoa() {
-    }
-
-    public Pessoa(String nome, int idade) {
+    public Pessoa(String nome, int idade, String curso) {
         this.nome = nome;
         this.idade = idade;
+        this.curso = curso;
     }
 
     public String getCurso() {

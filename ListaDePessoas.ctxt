@@ -1,2 +1,14 @@
 #BlueJ class context
-numComments=0
+comment0.params=posicao
+comment0.target=Pessoa\ get(int)
+comment1.params=pessoa
+comment1.target=RetornoPadrao\ incluirPessoa(Pessoa)
+comment2.params=nomeDoCurso
+comment2.target=ListaDePessoas\ pessoasDoCurso(java.lang.String)
+comment3.params=posicao
+comment3.target=boolean\ posicaoLivre(int)
+comment4.params=nome
+comment4.target=Pessoa\ procura(java.lang.String)
+comment5.params=
+comment5.target=int\ quantidade()
+numComments=6

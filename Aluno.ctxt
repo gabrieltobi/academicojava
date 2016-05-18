@@ -1,6 +1,8 @@
 #BlueJ class context
-comment0.params=
-comment0.target=int\ getNumeroMatricula()
-comment1.params=numeroMatricula
-comment1.target=void\ setNumeroMatricula(int)
-numComments=2
+comment0.params=nome\ idade\ curso
+comment0.target=Aluno(java.lang.String,\ int,\ java.lang.String)
+comment1.params=
+comment1.target=int\ getNumeroMatricula()
+comment2.params=numeroMatricula
+comment2.target=void\ setNumeroMatricula(int)
+numComments=3

@@ -6,6 +6,11 @@ public class Professor extends PessoaAssalariada
         super(nome, idade, curso);
     }
     
+    public String apresenta() {
+        String afastado = afastamentoMedico ? "Sim" : "Não";
+        return super.apresenta() + "\nAfastado: " + afastado;
+    }
+    
     public boolean getAfastamentoMedico() {
         return this.afastamentoMedico;
     }

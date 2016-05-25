@@ -2,7 +2,9 @@
 comment0.params=nome\ idade\ curso
 comment0.target=Aluno(java.lang.String,\ int,\ java.lang.String)
 comment1.params=
-comment1.target=int\ getNumeroMatricula()
-comment2.params=numeroMatricula
-comment2.target=void\ setNumeroMatricula(int)
-numComments=3
+comment1.target=java.lang.String\ apresenta()
+comment2.params=
+comment2.target=int\ getNumeroMatricula()
+comment3.params=numeroMatricula
+comment3.target=void\ setNumeroMatricula(int)
+numComments=4

@@ -6,6 +6,10 @@ public class PessoaAssalariada extends Pessoa
         super(nome, idade, curso);
     }
     
+    public String apresenta() {
+        return super.apresenta() + "\nSalário: " + salario;
+    }
+    
     public double getSalario() {
         return this.salario;
     }

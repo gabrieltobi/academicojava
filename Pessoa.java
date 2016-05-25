@@ -10,6 +10,10 @@ public class Pessoa
         this.idade = idade;
         this.curso = curso;
     }
+    
+    public String apresenta() {
+        return "\nNome: " + nome + "\nIdade: " + idade + "\nCurso: " + curso + "\nEndereço: " + endereco;
+    }
 
     public String getCurso() {
         return this.curso;

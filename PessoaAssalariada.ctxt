@@ -2,7 +2,9 @@
 comment0.params=nome\ idade\ curso
 comment0.target=PessoaAssalariada(java.lang.String,\ int,\ java.lang.String)
 comment1.params=
-comment1.target=double\ getSalario()
-comment2.params=salario
-comment2.target=void\ setSalario(int)
-numComments=3
+comment1.target=java.lang.String\ apresenta()
+comment2.params=
+comment2.target=double\ getSalario()
+comment3.params=salario
+comment3.target=void\ setSalario(int)
+numComments=4

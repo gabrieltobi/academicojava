@@ -6,6 +6,10 @@ public class Funcionario extends PessoaAssalariada
         super(nome, idade, curso);
     }
     
+    public String apresenta() {
+        return super.apresenta() + "\nCarga Horária: " + cargaHoraria;
+    }
+    
     public double getCargaHoraria() {
         return this.cargaHoraria;
     }

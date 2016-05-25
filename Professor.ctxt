@@ -2,7 +2,9 @@
 comment0.params=nome\ idade\ curso
 comment0.target=Professor(java.lang.String,\ int,\ java.lang.String)
 comment1.params=
-comment1.target=boolean\ getAfastamentoMedico()
-comment2.params=afastamentoMedico
-comment2.target=void\ setAfastamentoMedico(boolean)
-numComments=3
+comment1.target=java.lang.String\ apresenta()
+comment2.params=
+comment2.target=boolean\ getAfastamentoMedico()
+comment3.params=afastamentoMedico
+comment3.target=void\ setAfastamentoMedico(boolean)
+numComments=4

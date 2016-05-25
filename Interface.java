@@ -14,6 +14,7 @@ public class Interface
         System.out.println("  2 -Incluir funcionario");
         System.out.println("  3 -Incluir professor");
         System.out.println("4 - Pesquisar pessoas por curso");
+        System.out.println("5 - Apresentar pessoas da lista");
         System.out.println("0 - Sair");
         System.out.println("----------------------------------------");
 
@@ -65,6 +66,12 @@ public class Interface
             System.out.println("\nNenhuma pessoa encontrada no curso '" + curso + "'");
         }
     }
+    
+    public void apresentar() {
+        for (int i = 0; i < listaPessoas.quantidade(); i++) {
+            System.out.println(listaPessoas.get(i).apresenta());
+        }
+    }
 
     public void Iniciar() {            
         while (opcaoMenu != 0) {
@@ -85,6 +92,10 @@ public class Interface
 
                 case 4:
                 consultaPorCurso();
+                break;
+                
+                case 5:
+                apresentar();
                 break;
 
                 case 0:

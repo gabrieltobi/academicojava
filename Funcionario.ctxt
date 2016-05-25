@@ -2,7 +2,9 @@
 comment0.params=nome\ idade\ curso
 comment0.target=Funcionario(java.lang.String,\ int,\ java.lang.String)
 comment1.params=
-comment1.target=double\ getCargaHoraria()
-comment2.params=cargaHoraria
-comment2.target=void\ setCargaHoraria(double)
-numComments=3
+comment1.target=java.lang.String\ apresenta()
+comment2.params=
+comment2.target=double\ getCargaHoraria()
+comment3.params=cargaHoraria
+comment3.target=void\ setCargaHoraria(double)
+numComments=4

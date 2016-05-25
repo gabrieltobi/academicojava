@@ -6,6 +6,10 @@ public class Aluno extends Pessoa
         super(nome, idade, curso);
     }
     
+    public String apresenta() {
+        return super.apresenta() + "\nMatrícula: " + numeroMatricula;
+    }
+    
     public int getNumeroMatricula() {
         return this.numeroMatricula;
     }
